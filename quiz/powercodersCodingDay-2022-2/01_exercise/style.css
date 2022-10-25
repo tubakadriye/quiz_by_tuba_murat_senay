@@ -1,0 +1,67 @@
+.correct {
+    background-color: green !important;
+  }
+  
+  .wrong {
+    background-color: red !important;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  body {
+    background-color: rgb(196, 189, 189);
+  }
+  #container {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    background-color: rgb(223, 184, 171);
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 40vw;
+  }
+  p {
+    background-color: rgb(210, 158, 150);
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+  }
+  #container input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(210, 158, 150);
+    width: 40vw;
+    height: 3rem;
+    border: 1px solid rgb(223, 184, 171);
+  }
+  #container input:hover {
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+  }
+  #next-question {
+    margin-top: 10px;
+    margin-left: 14vw;
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(223, 206, 199);
+    border: 1px solid rgb(223, 206, 199);
+  }
+  #next-question:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+  }
+  #message {
+    background-color: rgb(224, 212, 210);
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+  }
